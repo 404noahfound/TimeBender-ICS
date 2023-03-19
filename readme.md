@@ -2,6 +2,12 @@
 
 This project allows you to convert a plain text schedule into an ICS file that can be imported into various calendar applications such as Google Calendar or Apple Calendar.
 
+## Install
+
+Please note that you will need to install the icalendar package for this script to work. You can install it using pip:
+
+`pip install icalendar`
+
 ## Input Format
 
 The input should be a plain text file with the following format:
@@ -11,9 +17,8 @@ The input should be a plain text file with the following format:
 3. The remaining lines should contain the events in the format `HH:MM - HH:MM: Event description`.
 
 ### Sample Input
-
+``` txt
 Date: March 19, 2023 (Sunday)
-
 09:00 - 09:30: Wake up and morning routine
 09:30 - 09:50: Have breakfast
 09:50 - 10:50: 1-hour gym session at home
@@ -26,6 +31,7 @@ Date: March 19, 2023 (Sunday)
 20:30 - 22:15: Wind down and prepare for bedtime
 22:15 - 23:15: Shower and brush teeth
 23:15 - 23:30: Relaxation or self-care activity
+```
 
 ## Usage
 
@@ -39,7 +45,3 @@ For example, if your input file is named `schedule.txt`, you can run the script 
 
 The script will generate an ICS file named `YYYY-MM-DD_schedule.ics`, which can be imported into your preferred calendar application.
 
-
-Please note that you will need to install the icalendar package for this script to work. You can install it using pip:
-
-pip install icalendar
