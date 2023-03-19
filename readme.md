@@ -1,4 +1,4 @@
-# Schedule to ICS Converter
+# TimeBender-ICS
 
 This project allows you to convert a plain text schedule into an ICS file that can be imported into various calendar applications such as Google Calendar or Apple Calendar.
 
